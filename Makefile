@@ -2,7 +2,7 @@
 
 # Compiler and flags
 CXX := g++
-CXXFLAGS := -std=c++2a -Wall -Wextra -O2
+CXXFLAGS := -std=c++17 -Wall -Wextra -O2
 
 # Paths
 SRC := gtest.cpp
@@ -15,10 +15,10 @@ GTEST_LIBS := -lgtest -lgtest_main -pthread
 all: $(TARGET)
 
 $(TARGET): $(SRC)
-        $(CXX) $(CXXFLAGS) -o $(TARGET) $(SRC) $(GTEST_LIBS)
+	$(CXX) $(CXXFLAGS) -o $(TARGET) $(SRC) $(GTEST_LIBS)
 
 run: $(TARGET)
-        ./$(TARGET)
+	./$(TARGET)
 
 clean:
-        rm -f $(TARGET)
+	rm -f $(TARGET)
