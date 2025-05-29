@@ -1,4 +1,4 @@
-# High-Performance Routing Table 🚀
+# High-Performance Routing Table 
 
 [![Build Status](https://github.com/yourusername/hp-routing-table/workflows/CI/badge.svg)](https://github.com/yourusername/hp-routing-table/actions)
 [![Coverage Status](https://codecov.io/gh/yourusername/hp-routing-table/branch/main/graph/badge.svg)](https://codecov.io/gh/yourusername/hp-routing-table)
@@ -7,7 +7,7 @@
 
 A high-performance, memory-efficient routing table implementation using compressed trie (Patricia tree) data structure optimized for longest prefix matching (LPM) lookups in network routers and switches.
 
-## 🎯 Key Features
+##  Key Features
 
 - **Ultra-Fast Lookups**: Sub-500ns lookup times for 95% of operations
 - **Memory Efficient**: <64 bytes overhead per route entry
@@ -18,7 +18,7 @@ A high-performance, memory-efficient routing table implementation using compress
 - **ECMP Support**: Equal Cost Multi-Path routing with load balancing
 - **Production Ready**: Comprehensive testing and benchmarking
 
-## 🚀 Performance Highlights
+##  Performance Highlights
 
 | Metric | IPv4 | IPv6 |
 |--------|------|------|
@@ -29,7 +29,7 @@ A high-performance, memory-efficient routing table implementation using compress
 
 *Benchmarked on Intel Xeon E5-2680 v4 @ 2.40GHz with full Internet BGP table*
 
-## 📋 Requirements
+##  Requirements
 
 ### System Requirements
 - **OS**: Linux (Ubuntu 20.04+, CentOS 8+), macOS 10.15+, Windows 10+
@@ -43,7 +43,7 @@ A high-performance, memory-efficient routing table implementation using compress
 - **Google Benchmark** (for performance testing)
 - **Doxygen** (for documentation generation)
 
-## 🛠️ Installation
+##  Installation
 
 ### Quick Start with vcpkg (Recommended)
 
@@ -215,7 +215,7 @@ Insert_Route               892 ns          892 ns       784314
 Delete_Route               743 ns          743 ns       941876
 ```
 
-## 🏗️ Architecture Overview
+##  Architecture Overview
 
 ### Core Components
 
@@ -353,7 +353,7 @@ make docs
 # Open build/docs/html/index.html
 ```
 
-## 🔄 Roadmap
+##  Roadmap
 
 ### Version 1.0 (Current)
 - [x] IPv4/IPv6 Patricia trie implementation
@@ -405,25 +405,14 @@ make -j$(nproc)
 
 
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - Inspired by production routing systems at major network vendors
 - Patricia trie algorithm based on D.R. Morrison's original paper
 - Performance optimizations derived from DPDK and VPP projects
 - BGP test data courtesy of RouteViews and RIPE RIS
 
-## 📞 Support
 
-- **Issues**: [GitHub Issues](https://github.com/yourusername/hp-routing-table/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/hp-routing-table/discussions)
-- **Email**: your.email@domain.com
-
-## 📈 Project Stats
-
-![GitHub stars](https://img.shields.io/github/stars/yourusername/hp-routing-table?style=social)
-![GitHub forks](https://img.shields.io/github/forks/yourusername/hp-routing-table?style=social)
-![GitHub issues](https://img.shields.io/github/issues/yourusername/hp-routing-table)
-![GitHub last commit](https://img.shields.io/github/last-commit/yourusername/hp-routing-table)
 
 ---
 
